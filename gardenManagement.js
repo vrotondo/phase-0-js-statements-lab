@@ -13,3 +13,13 @@ function checkTemperature(temperature) {
 
 console.log(checkTemperature(temperature));
 
+function checkTimeOfDay(timeOfDay) {
+    if (timeOfDay === "evening" || timeOfDay === "night") {
+        console.log("Lights on");
+    } else {
+        console.log("Lights off");
+    }
+}
+
+console.log(checkTimeOfDay(timeOfDay));
+
