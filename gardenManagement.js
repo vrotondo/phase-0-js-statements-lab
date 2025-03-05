@@ -2,7 +2,6 @@ const temperature = 90;
 const timeOfDay = "morning";
 let soilMoisture = 30;
 
-// Function to check temperature and control watering
 function checkTemperature(temperature) {
     if (temperature > 80) {
         console.log("Watering on");
@@ -23,3 +22,11 @@ function checkTimeOfDay(timeOfDay) {
 
 console.log(checkTimeOfDay(timeOfDay));
 
+let soilMoisture = 0;
+
+while (soilMoisture < 40) {
+    soilMoisture += 5;
+    console.log(soilMoisture);
+}
+
+console.log(soilMoisture);
