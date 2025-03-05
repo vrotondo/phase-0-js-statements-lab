@@ -22,8 +22,6 @@ function checkTimeOfDay(timeOfDay) {
 
 console.log(checkTimeOfDay(timeOfDay));
 
-let soilMoisture = 0;
-
 while (soilMoisture < 40) {
     soilMoisture += 5;
     console.log(soilMoisture);
